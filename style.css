@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arcade+Classic&display=swap');
+
+*{
+    font-family: 'Gemunu Libre', sans-serif !important;
+}
+
+header{
+    background-color: rgba(12, 12, 12, 0.164);
+    text-align: center;
+}
+h1,h2{
+    color: rgb(255, 255, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section{
+    text-align: center;
+}
+
+body{
+    color: white;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-image: url(assets/fundo-home.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+img{
+    border-radius: 100%;
+    max-width: 150px;
+    border: 4px solid rgb(255, 255, 255);
+}
+.comfoto{
+    background-color: rgba(0, 0, 0, 0.644);
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+.sobremim {
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid violet;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.comfoto > h1{
+    font-size: 40px;
+}
+.formacoes{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 20px;
+    margin-bottom: 100px;
+    border: 3px solid violet;
+}
+.pessoais{
+    background-color: rgba(0, 0, 0, 0.644);
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    border: 3px solid violet;
+}
+.contato{
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 20px;
+    border: 3px solid violet;
+}
+li{
+    font-size: 20px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+a{
+    color: rgb(255, 0, 0);
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 100px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    .comfoto, .formacoes, .pessoais, .contato {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sobremim, .formacoes, .pessoais, .contato {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    li {
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+
+    .comfoto {
+        margin-bottom: 40px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    .comfoto, .formacoes, .pessoais, .contato {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 80px;
+    }
+
+    li {
+        padding-bottom: 5px;
+    }
+}
+
+a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.comfoto {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.comfoto img {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+.sobremim, .formacoes, .pessoais, .contato {
+    transition: all 0.3s ease;
+}
+
+.sobremim:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
